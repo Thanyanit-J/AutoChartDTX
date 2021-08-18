@@ -12,7 +12,7 @@ This is the first streamlit app
 
 Our Senior Project shall be a masterpiece!
 
-But first, let's test our CIFAR-10 model, shall we?
+But first, let's test image input and output, shall we?
 """)
 
 # st.file_uploader get input in Bytes, so we need to read() it before progressing.

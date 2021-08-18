@@ -3,7 +3,7 @@ import pandas as pd
 
 st.write("""
 # Hello world!
-This is the first streamlab app
+This is the first streamlit app
 
 Our Senior Project shall be a masterpiece!
 """)

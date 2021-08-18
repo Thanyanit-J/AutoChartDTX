@@ -17,9 +17,9 @@ But first, let's test our CIFAR-10 model, shall we?
 
 # st.file_uploader get input in Bytes, so we need to read() it before progressing.
 inputData = st.file_uploader('Upload an image', type="jpg") 
-image = inputData.read()
 
-if image != None:
+if inputData != None:
+    image = inputData.read()
     # Display the image
     # plt.figure()
     # plt.imshow(image)

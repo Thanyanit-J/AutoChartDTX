@@ -1,2 +1,2 @@
-# autoChartDTX
+# AutoChartDTX
 Streamlit app testing

@@ -4,4 +4,6 @@ import pandas as pd
 st.write("""
 # Hello world!
 This is the first streamlab app
+
+Our Senior Project shall be a masterpiece!
 """)

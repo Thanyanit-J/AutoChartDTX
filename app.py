@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import numpy as np
 import matplotlib
 import matplotlib.pyplot as plt
 import tensorflow as tf
@@ -19,11 +20,11 @@ inputData = st.file_uploader('Upload an image', type="jpg")
 image = inputData.read()
 
 # Display the image
-plt.figure()
-plt.imshow(image)
-plt.colorbar()
-plt.grid(False)
-plt.show()
+# plt.figure()
+# plt.imshow(image)
+# plt.colorbar()
+# plt.grid(False)
+# plt.show()
 
 
 st.image(image)

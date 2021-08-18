@@ -19,14 +19,15 @@ But first, let's test our CIFAR-10 model, shall we?
 inputData = st.file_uploader('Upload an image', type="jpg") 
 image = inputData.read()
 
-# Display the image
-# plt.figure()
-# plt.imshow(image)
-# plt.colorbar()
-# plt.grid(False)
-# plt.show()
+if image != None:
+    # Display the image
+    # plt.figure()
+    # plt.imshow(image)
+    # plt.colorbar()
+    # plt.grid(False)
+    # plt.show()
 
 
-st.image(image)
-# loaded_model = tf.keras.models.load_model('/model/acc0.8685')
+    st.image(image)
+    # loaded_model = tf.keras.models.load_model('/model/acc0.8685')
 

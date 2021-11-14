@@ -20,13 +20,13 @@ if inputData != None:
     
     simfile = open('Letters Goodbye.zip', 'r')
     
-    btn = st.download_button(
-             label="Download Simfile",
-             data=Simfile,
-             file_name="Letters Goodbye.zip",
-           )
+    st.download_button(
+         label="Download Simfile",
+         data=Simfile,
+         file_name="Letters Goodbye.zip",
+       )
 
 
-    st.image(image)
+#     st.image(image)
     # loaded_model = tf.keras.models.load_model('/model/acc0.8685')
 

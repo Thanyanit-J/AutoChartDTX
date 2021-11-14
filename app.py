@@ -16,8 +16,8 @@ Convert a song to Simfile.
 inputData = st.file_uploader('Upload a song', type=['wav', 'mp3']) 
 
 if inputData != None:
-    songbyte = inputData.getvalue()
-    song = songbyte.read()
+#     song = inputData.read()
+    
     simfile = open('Letters Goodbye.zip', 'r')
     
     btn = st.download_button(

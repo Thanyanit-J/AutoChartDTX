@@ -16,7 +16,7 @@ Convert a song to Simfile.
 inputData = st.file_uploader('Upload a song', type=['wav', 'mp3']) 
 
 simfile = open('Letters Goodbye.zip', 'r')
-def get_table_download_link(file):
+def get_table_download_link():
     href = f'<a href="data:file/zip;{simfile}" download="Letters Goodbye.zip">Download Simfile</a>'
     
 if inputData != None:
@@ -28,7 +28,7 @@ if inputData != None:
 #          data=Simfile,
 #          file_name="Letters Goodbye.zip",
 #        )
-    st.markdown(get_table_download_link(file), unsafe_allow_html=True)
+    st.markdown(get_table_download_link(), unsafe_allow_html=True)
 
 #     st.image(image)
     # loaded_model = tf.keras.models.load_model('/model/acc0.8685')

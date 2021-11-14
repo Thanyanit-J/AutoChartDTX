@@ -7,25 +7,23 @@ import tensorflow as tf
 from tensorflow import keras
 
 st.write("""
-# Hello world!
-This is the first streamlit app
+# Demo of our project!
 
-Our Senior Project shall be a masterpiece!
-
-But first, let's test image input and output, shall we?
+Convert a song to Simfile.
 """)
 
 # st.file_uploader get input in Bytes, so we need to read() it before progressing.
-inputData = st.file_uploader('Upload an image', type="jpg") 
+inputData = st.file_uploader('Upload a song') 
 
 if inputData != None:
-    image = inputData.read()
-    # Display the image
-    # plt.figure()
-    # plt.imshow(image)
-    # plt.colorbar()
-    # plt.grid(False)
-    # plt.show()
+    song = inputData.read()
+    simfile = open('Letters Goodbye.zip', 'r')
+    
+    btn = st.download_button(
+             label="Download Simfile",
+             data=Simfile,
+             file_name="Letters Goodbye.zip",
+           )
 
 
     st.image(image)

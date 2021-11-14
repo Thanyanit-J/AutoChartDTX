@@ -13,7 +13,7 @@ Convert a song to Simfile.
 """)
 
 # st.file_uploader get input in Bytes, so we need to read() it before progressing.
-inputData = st.file_uploader('Upload a song', type=[‘wav’, ‘mp3’]) 
+inputData = st.file_uploader('Upload a song', type=['wav', 'mp3']) 
 
 if inputData != None:
     songbyte = inputData.getvalue()

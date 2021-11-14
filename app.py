@@ -17,7 +17,7 @@ inputData = st.file_uploader('Upload a song', type=['wav', 'mp3'])
 
 simfile = open('Letters Goodbye.zip', 'r')
 def get_table_download_link():
-    href = f'<a href="Letters Goodbye.zip" download="Letters Goodbye.zip">Download Simfile</a>'
+    href = f'<a href="Letters Goodbye.zip" download>Download Simfile</a>'
     return href
     
 if inputData != None:

@@ -15,7 +15,7 @@ Convert a song to Simfile.
 # st.file_uploader get input in Bytes, so we need to read() it before progressing.
 inputData = st.file_uploader('Upload a song', type=['wav', 'mp3']) 
 
-simfile = open('Letters Goodbye.zip', 'r')
+simfile = open('Letters Goodbye.zip', 'rb')
 
 # Obsolete workaround to download stuf in streamlit older version
 # def get_table_download_link():

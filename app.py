@@ -28,7 +28,7 @@ if inputData != None:
     
     st.download_button(
          label="Download Simfile",
-         data=Simfile,
+         data=simfile,
          file_name="Letters Goodbye.zip",
        )
 #     st.markdown(get_table_download_link(), unsafe_allow_html=True)

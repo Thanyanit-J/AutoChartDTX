@@ -1,5 +1,4 @@
 # AutoChartDTX
-Streamlit app testing
 
 This is a part of a graduation project.
 

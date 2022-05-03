@@ -1,6 +1,6 @@
 # AutoChartDTX
 
-This project aims to automatically convert any song to a chart for a rhythm game called DTXMania.
+This project aims to automatically convert any song to a chart for a drum rhythm game called [DTXMania](https://osdn.net/projects/dtxmania/).
 
 To test stuff, we have set up [Google Colab notebook](https://colab.research.google.com/github/Thanyanit-J/AutoChartDTX/blob/main/AutoChart.ipynb)
 

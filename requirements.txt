@@ -1,7 +1,0 @@
-pandas
-numpy==1.19.5
-matplotlib
-tensorflow
-streamlit==1.2.0
-librosa
-magenta
